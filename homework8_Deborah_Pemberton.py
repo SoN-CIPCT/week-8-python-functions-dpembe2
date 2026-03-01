@@ -3,5 +3,5 @@ def create_sandwich(*ingredients):
     for ingredient in ingredients:
         print(f"- {ingredient}")
 create_sandwich("Lettuce", "Tomato", "Turkey", "Cheese")
-print()  # Just for spacing
+print()  
 create_sandwich("Ham", "Mustard")
